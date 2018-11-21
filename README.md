@@ -1,53 +1,10 @@
-<<<<<<< HEAD
-Testapp
-================
-
-This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
-provided by the [RailsApps Project](http://railsapps.github.io/).
-
-Rails Composer is supported by developers who purchase our RailsApps tutorials.
-
-Problems? Issues?
------------
-
-Need help? Ask on Stack Overflow with the tag 'railsapps.'
-
-Your application contains diagnostics in the README file. Please provide a copy of the README file when reporting any issues.
-
-If the application doesn't work as expected, please [report an issue](https://github.com/RailsApps/rails_apps_composer/issues)
-and include the diagnostics.
-
-Ruby on Rails
--------------
-
-This application requires:
-
-- Ruby 2.4.4
-- Rails 5.1.6
-
-Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html).
-
-Getting Started
----------------
-
-Documentation and Support
--------------------------
-
-Issues
--------------
-
-Similar Projects
-----------------
-
-Contributing
-------------
-
-Credits
--------
-
-License
--------
-=======
 # SE4351FinalProject
-Final project using Ruby on Rails, links for admins
->>>>>>> 167a10451e004adf5afbec78e8c480baaac714d4
+Final project using Ruby on Rails, links for admins 
+***Not final version 11/21/2018***
+
+To run, install bundles with command: bundles install
+Start server with: rails s 
+Access server by going to [localhost](http://localhost:3000)
+
+Generated using [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
+
