@@ -1,0 +1,29 @@
+{:uriI" file:///D:/Eugene/CSHW/COSC%204351%20SE/testapp/app/assets/config/secrets.yml?type=text/yaml&id=2fa566b87ebb66edb88a3842c53dba97664a8e27022bd7cb62eb13e8f4da4026:ET:load_pathI"app/assets/config;T:filenameI""app/assets/config/secrets.yml;T:	nameI"secrets;T:logical_pathI"secrets.yml;T:content_typeI"text/yaml;T:sourceI"]# Make sure the secrets in this file are kept private
+# if you're sharing your code publicly.
+
+development:
+  admin_name: First User
+  admin_email: user@example.com
+  admin_password: changeme
+  email_provider_username: <%= ENV["GMAIL_USERNAME"] %>
+  email_provider_password: <%= ENV["GMAIL_PASSWORD"] %>
+  domain_name: example.com
+  secret_key_base: very_long_random_string
+
+test:
+  secret_key_base: very_long_random_string
+
+# Do not keep production secrets in the repository,
+# instead read values from the environment.
+production:
+  admin_name: <%= ENV["ADMIN_NAME"] %>
+  admin_email: <%= ENV["ADMIN_EMAIL"] %>
+  admin_password: <%= ENV["ADMIN_PASSWORD"] %>
+  email_provider_username: <%= ENV["GMAIL_USERNAME"] %>
+  email_provider_password: <%= ENV["GMAIL_PASSWORD"] %>
+  domain_name: <%= ENV["DOMAIN_NAME"] %>
+  secret_key_base: <%= ENV["SECRET_KEY_BASE"] %>;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/yaml&file_type=text/yaml;TTI"Yfile-digest:///D:/Eugene/CSHW/COSC%204351%20SE/testapp/app/assets/config/secrets.yml;TTF:charsetI"
+utf-8;F:digest"%Éæ»,ø>O<Aw\+”(#œÔ„°<[ÈYÁÑU½5Øù‹æ:lengthi]:dependencies_digest"%fˆê¼p¡”/5N#ò`¶q$}$Ì˜Æxiìs‚Äz:idI"E2fa566b87ebb66edb88a3842c53dba97664a8e27022bd7cb62eb13e8f4da4026;F:
+mtimel+õ[
