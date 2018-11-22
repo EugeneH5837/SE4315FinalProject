@@ -1,0 +1,2 @@
+class TierOneLink < ApplicationRecord
+end

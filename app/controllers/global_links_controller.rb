@@ -1,6 +1,9 @@
 class GlobalLinksController < ApplicationController
   before_action :set_global_link, only: [:show, :edit, :update, :destroy]
 
+  def after_sign_in_path_for(resource)
+    global_links_path
+  end
   # GET /global_links
   # GET /global_links.json
   def index

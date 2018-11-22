@@ -10,10 +10,28 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181121091334) do
+ActiveRecord::Schema.define(version: 20181122085732) do
 
   create_table "global_links", force: :cascade do |t|
     t.string "link"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "tier_one_links", force: :cascade do |t|
+    t.string "links"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "tier_three_links", force: :cascade do |t|
+    t.string "links"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "tier_two_links", force: :cascade do |t|
+    t.string "links"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

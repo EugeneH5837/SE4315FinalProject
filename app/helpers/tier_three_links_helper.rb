@@ -1,0 +1,2 @@
+module TierThreeLinksHelper
+end

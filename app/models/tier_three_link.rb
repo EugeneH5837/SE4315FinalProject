@@ -1,0 +1,2 @@
+class TierThreeLink < ApplicationRecord
+end

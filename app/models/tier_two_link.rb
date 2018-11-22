@@ -1,0 +1,2 @@
+class TierTwoLink < ApplicationRecord
+end

@@ -1,0 +1,22 @@
+<%= form_with(model: tier_two_link, local: true) do |form| %>
+  <% if tier_two_link.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(tier_two_link.errors.count, "error") %> prohibited this tier_two_link from being saved:</h2>
+
+      <ul>
+      <% tier_two_link.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :links %>
+    <%= form.text_field :links, id: :tier_two_link_links %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

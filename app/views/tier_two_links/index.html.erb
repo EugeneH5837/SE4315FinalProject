@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Tier Two Links</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Links</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+  
+  <tbody>
+    <% @tier_two_links.each do |tier_two_link| %>
+      <tr>
+        <td><%= tier_two_link.links %></td>
+        <td><%= link_to 'Show', tier_two_link %></td>
+        <td><%= link_to 'Edit', edit_tier_two_link_path(tier_two_link) %></td>
+        <td><%= link_to 'Destroy', tier_two_link, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Tier Two Link', new_tier_two_link_path %>

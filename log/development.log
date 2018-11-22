@@ -1667,3 +1667,1783 @@ Processing by UsersController#index as HTML
 Completed 200 OK in 461ms (Views: 427.3ms | ActiveRecord: 2.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-11-21 04:21:26 -0600
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  Rendered visitors/index.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (18.0ms)
+  Rendered layouts/_navigation.html.erb (67.9ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 847ms (Views: 807.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-11-21 04:21:37 -0600
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mGlobalLink Load (0.0ms)[0m  [1m[34mSELECT "global_links".* FROM "global_links"[0m
+  Rendered users/_user.html.erb (14.9ms)
+  Rendered users/_user.html.erb (1.0ms)
+  Rendered users/index.html.erb within layouts/application (71.8ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (49.9ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 440ms (Views: 405.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-11-21 04:21:48 -0600
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mGlobalLink Load (0.0ms)[0m  [1m[34mSELECT "global_links".* FROM "global_links"[0m
+  Rendered users/_user.html.erb (3.0ms)
+  Rendered users/_user.html.erb (0.0ms)
+  Rendered users/index.html.erb within layouts/application (56.8ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (47.9ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 411ms (Views: 381.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-11-21 04:21:56 -0600
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mGlobalLink Load (0.0ms)[0m  [1m[34mSELECT "global_links".* FROM "global_links"[0m
+  Rendered users/_user.html.erb (3.9ms)
+  Rendered users/_user.html.erb (0.0ms)
+  Rendered users/index.html.erb within layouts/application (56.8ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (48.9ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 447ms (Views: 411.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-11-21 04:22:05 -0600
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mGlobalLink Load (0.0ms)[0m  [1m[34mSELECT "global_links".* FROM "global_links"[0m
+  Rendered users/_user.html.erb (3.0ms)
+  Rendered users/_user.html.erb (0.0ms)
+  Rendered users/index.html.erb within layouts/application (56.8ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (53.8ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+Completed 200 OK in 433ms (Views: 403.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-11-21 04:22:14 -0600
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mGlobalLink Load (0.0ms)[0m  [1m[34mSELECT "global_links".* FROM "global_links"[0m
+  Rendered users/_user.html.erb (2.0ms)
+  Rendered users/_user.html.erb (0.0ms)
+  Rendered users/index.html.erb within layouts/application (60.8ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (50.8ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 429ms (Views: 399.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-11-21 04:22:58 -0600
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/_user.html.erb (27.9ms)
+  Rendered users/index.html.erb within layouts/application (53.8ms)
+Completed 500 Internal Server Error in 187ms (ActiveRecord: 2.0ms)
+
+
+
+NoMethodError - undefined method `link' for nil:NilClass:
+  app/views/users/_user.html.erb:3:in `_app_views_users__user_html_erb__937737347_89502620'
+  app/views/users/index.html.erb:9:in `block in _app_views_users_index_html_erb__569508851_90130140'
+  app/views/users/index.html.erb:7:in `_app_views_users_index_html_erb__569508851_90130140'
+
+Started POST "/__better_errors/46849c3bf081c617/variables" for 127.0.0.1 at 2018-11-21 04:22:58 -0600
+  [1m[36mGlobalLink Load (0.0ms)[0m  [1m[34mSELECT  "global_links".* FROM "global_links" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/" for 127.0.0.1 at 2018-11-21 04:23:18 -0600
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  Rendered visitors/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (3.9ms)
+  Rendered layouts/_navigation.html.erb (62.8ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 381ms (Views: 351.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-11-21 04:23:20 -0600
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mGlobalLink Load (0.0ms)[0m  [1m[34mSELECT "global_links".* FROM "global_links"[0m
+  Rendered users/_user.html.erb (31.9ms)
+  Rendered users/index.html.erb within layouts/application (59.8ms)
+Completed 500 Internal Server Error in 184ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `link' for nil:NilClass:
+  app/views/users/_user.html.erb:7:in `_app_views_users__user_html_erb__937737347_85517900'
+  app/views/users/index.html.erb:9:in `block in _app_views_users_index_html_erb__569508851_85569600'
+  app/views/users/index.html.erb:7:in `_app_views_users_index_html_erb__569508851_85569600'
+
+Started POST "/__better_errors/97317842bc93f581/variables" for 127.0.0.1 at 2018-11-21 04:23:21 -0600
+Started GET "/users" for 127.0.0.1 at 2018-11-21 04:23:29 -0600
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mGlobalLink Load (0.0ms)[0m  [1m[34mSELECT "global_links".* FROM "global_links"[0m
+  Rendered users/_user.html.erb (484.7ms)
+  Rendered users/index.html.erb within layouts/application (512.6ms)
+Completed 500 Internal Server Error in 666ms (ActiveRecord: 2.0ms)
+
+
+
+NameError - undefined local variable or method `global_link' for #<#<Class:0x000000000c30bf68>:0x000000000c0d3a48>
+Did you mean?  @global_links:
+  app/views/users/_user.html.erb:7:in `_app_views_users__user_html_erb__937737347_100916160'
+  app/views/users/index.html.erb:9:in `block in _app_views_users_index_html_erb__569508851_101106540'
+  app/views/users/index.html.erb:7:in `_app_views_users_index_html_erb__569508851_101106540'
+
+Started POST "/__better_errors/80d27327936d8941/variables" for 127.0.0.1 at 2018-11-21 04:23:30 -0600
+Started GET "/users" for 127.0.0.1 at 2018-11-21 04:24:33 -0600
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mGlobalLink Load (1.0ms)[0m  [1m[34mSELECT "global_links".* FROM "global_links"[0m
+  Rendered users/_user.html.erb (3.0ms)
+  Rendered users/_user.html.erb (0.0ms)
+  Rendered users/index.html.erb within layouts/application (53.9ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (50.9ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 419ms (Views: 387.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-11-21 04:24:47 -0600
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/_user.html.erb (32.0ms)
+  Rendered users/index.html.erb within layouts/application (59.8ms)
+Completed 500 Internal Server Error in 192ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `each' for nil:NilClass:
+  app/views/users/_user.html.erb:14:in `_app_views_users__user_html_erb__937737347_105851260'
+  app/views/users/index.html.erb:9:in `block in _app_views_users_index_html_erb__569508851_106038800'
+  app/views/users/index.html.erb:7:in `_app_views_users_index_html_erb__569508851_106038800'
+
+Started POST "/__better_errors/a364d4bb9a4be76e/variables" for 127.0.0.1 at 2018-11-21 04:24:47 -0600
+  [1m[36mGlobalLink Load (1.0ms)[0m  [1m[34mSELECT  "global_links".* FROM "global_links" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/users" for 127.0.0.1 at 2018-11-21 04:24:51 -0600
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mGlobalLink Load (1.0ms)[0m  [1m[34mSELECT "global_links".* FROM "global_links"[0m
+  Rendered users/_user.html.erb (6.0ms)
+  Rendered users/_user.html.erb (1.0ms)
+  Rendered users/index.html.erb within layouts/application (57.8ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (51.9ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 461ms (Views: 429.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-11-21 04:25:25 -0600
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mGlobalLink Load (0.0ms)[0m  [1m[34mSELECT "global_links".* FROM "global_links"[0m
+  Rendered users/_user.html.erb (33.9ms)
+  Rendered users/index.html.erb within layouts/application (58.8ms)
+Completed 500 Internal Server Error in 196ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `link' for #<GlobalLink::ActiveRecord_Relation:0x000000000c565390>:
+  app/views/users/_user.html.erb:23:in `_app_views_users__user_html_erb__937737347_103223640'
+  app/views/users/index.html.erb:9:in `block in _app_views_users_index_html_erb__569508851_103481160'
+  app/views/users/index.html.erb:7:in `_app_views_users_index_html_erb__569508851_103481160'
+
+Started POST "/__better_errors/1577c1a661dd72a2/variables" for 127.0.0.1 at 2018-11-21 04:25:25 -0600
+Started GET "/users" for 127.0.0.1 at 2018-11-21 04:25:32 -0600
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mGlobalLink Load (0.0ms)[0m  [1m[34mSELECT "global_links".* FROM "global_links"[0m
+  Rendered users/_user.html.erb (27.0ms)
+  Rendered users/index.html.erb within layouts/application (52.9ms)
+Completed 500 Internal Server Error in 197ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `link' for nil:NilClass:
+  app/views/users/_user.html.erb:23:in `_app_views_users__user_html_erb__937737347_96593780'
+  app/views/users/index.html.erb:9:in `block in _app_views_users_index_html_erb__569508851_96763800'
+  app/views/users/index.html.erb:7:in `_app_views_users_index_html_erb__569508851_96763800'
+
+Started POST "/__better_errors/602e2cc48dae18f0/variables" for 127.0.0.1 at 2018-11-21 04:25:33 -0600
+Started GET "/users" for 127.0.0.1 at 2018-11-21 04:25:51 -0600
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mGlobalLink Load (0.0ms)[0m  [1m[34mSELECT "global_links".* FROM "global_links"[0m
+  Rendered users/_user.html.erb (4.0ms)
+  Rendered users/_user.html.erb (0.0ms)
+  Rendered users/index.html.erb within layouts/application (58.8ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (50.9ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 429ms (Views: 397.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-11-21 04:26:01 -0600
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mGlobalLink Load (0.0ms)[0m  [1m[34mSELECT "global_links".* FROM "global_links"[0m
+  Rendered users/_user.html.erb (4.0ms)
+  Rendered users/_user.html.erb (0.0ms)
+  Rendered users/index.html.erb within layouts/application (55.9ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (49.9ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 453ms (Views: 405.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/global_links" for 127.0.0.1 at 2018-11-21 04:26:09 -0600
+Processing by GlobalLinksController#index as HTML
+  Rendering global_links/index.html.erb within layouts/application
+  [1m[36mGlobalLink Load (1.0ms)[0m  [1m[34mSELECT "global_links".* FROM "global_links"[0m
+  Rendered global_links/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (4.0ms)
+  Rendered layouts/_navigation.html.erb (52.9ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 354ms (Views: 327.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-11-21 04:26:51 -0600
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mGlobalLink Load (1.0ms)[0m  [1m[34mSELECT "global_links".* FROM "global_links"[0m
+  Rendered users/_user.html.erb (4.0ms)
+  Rendered users/_user.html.erb (0.0ms)
+  Rendered users/index.html.erb within layouts/application (56.9ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (52.9ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 421ms (Views: 392.9ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-11-21 04:27:19 -0600
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mGlobalLink Load (0.0ms)[0m  [1m[34mSELECT "global_links".* FROM "global_links"[0m
+  Rendered users/_user.html.erb (4.0ms)
+  Rendered users/_user.html.erb (1.0ms)
+  Rendered users/index.html.erb within layouts/application (66.8ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (48.9ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 428ms (Views: 396.0ms | ActiveRecord: 1.0ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2018-11-21 04:29:44 -0600
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"MfeY9ni1cG/P5N9ahqNf4X4QtdLJU8CO9vOX0eBsSpxE7HIoymuyjPb56aVopOMDgGpOO/cvWjZc/PsiJnb3Bg=="}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 31ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-21 04:29:44 -0600
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  Rendered visitors/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (3.0ms)
+  Rendered layouts/_navigation.html.erb (57.8ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 415ms (Views: 378.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-21 04:29:47 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (25.9ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (53.9ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 466ms (Views: 463.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-11-21 04:29:51 -0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TJ4dQcPKpS1MARuqGNK/f2xyB+TxESwE03C757yYTTLyQ7upX6vdSYMcwZFvVc51x+kXb4u1pPQUseVozLNFpQ==", "user"=>{"email"=>"testing@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "testing@email.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 306ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-21 04:29:52 -0600
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  Rendered visitors/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (3.0ms)
+  Rendered layouts/_navigation.html.erb (56.8ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 363ms (Views: 337.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-11-21 04:29:54 -0600
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :admin_only rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-21 04:29:54 -0600
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  Rendered visitors/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (5.0ms)
+  Rendered layouts/_navigation.html.erb (58.9ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 372ms (Views: 344.8ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2018-11-21 04:33:44 -0600
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Nsb22G/xozmd//X7TGMVHp/4GyBNeYdfxIvOFioI1Zn4cXqggyBWc/FnrKx6EBpKaGJmoWbfkgRYNV27r1lJQg=="}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-21 04:33:44 -0600
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  Rendered visitors/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (64.9ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 390ms (Views: 364.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-21 04:33:46 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (58.8ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 440ms (Views: 439.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-21 04:35:09 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (49.8ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 443ms (Views: 440.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-21 04:35:11 -0600
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  Rendered visitors/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (56.9ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 379ms (Views: 352.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-21 04:40:28 -0600
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  Rendered visitors/index.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (55.8ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 376ms (Views: 345.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-21 04:40:31 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (53.9ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 431ms (Views: 413.7ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-11-21 04:40:40 -0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ni19o/QfwPJtpnmNb4NzNVZkPFEwTRfa3bean2zVr8NNvqNM54eThiGBBMdhefaEnLm7aAoCCEaAhZ7bS0+dBw==", "user"=>{"email"=>"testing@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "testing@email.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 276ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-21 04:40:40 -0600
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  Rendered visitors/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (5.0ms)
+  Rendered layouts/_navigation.html.erb (60.8ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 371ms (Views: 343.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-11-21 04:40:50 -0600
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :admin_only rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-21 04:40:50 -0600
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  Rendered visitors/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (3.0ms)
+  Rendered layouts/_navigation.html.erb (56.9ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 368ms (Views: 342.9ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2018-11-21 04:40:55 -0600
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"2X8zSM4hhPJajXSawHC2eXFh+sPgmHD/QgAw1HZTbIRbKGBgOXp3Xffu2SeRlEhRjrzPAUch8VKFPs9uJJy1Ow=="}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-21 04:40:55 -0600
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  Rendered visitors/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (62.8ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 433ms (Views: 406.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-21 04:40:57 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (57.8ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 432ms (Views: 431.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-11-21 04:41:02 -0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"L07HSjrnAuaVZ7U39HzTo8YIOH5OdJgLJGarcRqQRo976V3pSyI0b23InLoQ5f4a+YPolEaumgU14ZUk8v9vTQ==", "user"=>{"email"=>"user@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "user@example.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 301ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-21 04:41:02 -0600
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  Rendered visitors/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (5.0ms)
+  Rendered layouts/_navigation.html.erb (58.8ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 369ms (Views: 340.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-11-21 04:41:04 -0600
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mGlobalLink Load (0.0ms)[0m  [1m[34mSELECT "global_links".* FROM "global_links"[0m
+  Rendered users/_user.html.erb (8.0ms)
+  Rendered users/_user.html.erb (1.0ms)
+  Rendered users/index.html.erb within layouts/application (62.9ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (53.9ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 413ms (Views: 384.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-21 04:42:39 -0600
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  Rendered visitors/index.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (11.0ms)
+  Rendered layouts/_navigation.html.erb (72.8ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 402ms (Views: 369.4ms | ActiveRecord: 2.0ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2018-11-21 04:42:41 -0600
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"M8u5f7r49xvJLylqShEIvTueBgBSZiGi0B+b/GaGfQEf3i4v0wEpBv4SL6UD7MzjhbdGZZyOzTV/BREF8t8YYA=="}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 7ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-21 04:42:41 -0600
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  Rendered visitors/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (57.9ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 379ms (Views: 349.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-21 04:42:43 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (53.9ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 422ms (Views: 420.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-11-21 04:42:47 -0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Sn8I95klTp5j4lfDwYMp7R+aqAqVETv0V4U+6U0qe4Et7VFwBRYMpQVJxjIRAQ5jW3Btzdg40uP+RcRErXt+/Q==", "user"=>{"email"=>"testing@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "testing@email.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/global_links
+Completed 302 Found in 305ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/global_links" for 127.0.0.1 at 2018-11-21 04:42:47 -0600
+Processing by GlobalLinksController#index as HTML
+  Rendering global_links/index.html.erb within layouts/application
+  [1m[36mGlobalLink Load (1.0ms)[0m  [1m[34mSELECT "global_links".* FROM "global_links"[0m
+  Rendered global_links/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (4.9ms)
+  Rendered layouts/_navigation.html.erb (52.8ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 381ms (Views: 347.5ms | ActiveRecord: 2.0ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2018-11-21 04:43:01 -0600
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"9BHWU3eRSDzdMCASOFDs3mvQ+8+lKDgycNmIJd6sD3j53+dLrxSBTTmlJ/tkLg3X2Tv/x6WnImCOYIF4EfxYIA=="}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 21ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-21 04:43:01 -0600
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  Rendered visitors/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (54.9ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 362ms (Views: 335.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-21 04:43:04 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (48.9ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 399ms (Views: 397.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-11-21 04:43:09 -0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"t0/IhU0GSOlGNjCUwJCmSib85qM7bHb0hsHxdv/C6+6gOD7eOg7PGd+0Ap2GBPZTRsekQqI9ij3+zQ46SpP+UQ==", "user"=>{"email"=>"testing@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "testing@email.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 300ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-21 04:43:09 -0600
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  Rendered visitors/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (58.8ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 359ms (Views: 331.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-21 04:43:29 -0600
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.0ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.0ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.0ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+Started GET "/" for 127.0.0.1 at 2018-11-22 02:44:32 -0600
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  Rendered visitors/index.html.erb within layouts/application (18.9ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (5.0ms)
+  Rendered layouts/_navigation.html.erb (108.7ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 2373ms (Views: 2316.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-11-22 02:44:39 -0600
+Processing by UsersController#index as HTML
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-22 02:44:39 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (97.8ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (53.9ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 576ms (Views: 557.2ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-11-22 02:44:43 -0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fcOROQnA0md6GsNUkaCSEWNJ30cVgWqcLfGcEd9dSV7YECkdcY+Xz2N4ObFM4aOXdEzayUSFTclsHvMFtIa5Pg==", "user"=>{"email"=>"testing@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "testing@email.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 222ms (ActiveRecord: 1.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fcOROQnA0md6GsNUkaCSEWNJ30cVgWqcLfGcEd9dSV7YECkdcY+Xz2N4ObFM4aOXdEzayUSFTclsHvMFtIa5Pg==", "user"=>{"email"=>"testing@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (61.8ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 572ms (Views: 434.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-11-22 02:44:49 -0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xoqHO1w1bEqBlNtWASanDWGnn1tSA+IECFo3z4c6p45jWT8fJHop4pj2IbPcZ5aLdqKa1QMHxVFJtVjb7OFX7g==", "user"=>{"email"=>"user@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "user@example.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 145ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xoqHO1w1bEqBlNtWASanDWGnn1tSA+IECFo3z4c6p45jWT8fJHop4pj2IbPcZ5aLdqKa1QMHxVFJtVjb7OFX7g==", "user"=>{"email"=>"user@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (6.9ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (61.2ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 588ms (Views: 448.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-11-22 02:44:53 -0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nXTx/tfUkoh2S4ln09zkG9Qdy3DXU1qx8ZbyIadyLfo4p0nar5vXIG8pc4IOndWdwxjO/oZXfeSweZ01zKndmg==", "user"=>{"email"=>"user@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nXTx/tfUkoh2S4ln09zkG9Qdy3DXU1qx8ZbyIadyLfo4p0nar5vXIG8pc4IOndWdwxjO/oZXfeSweZ01zKndmg==", "user"=>{"email"=>"user@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (52.8ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 460ms (Views: 457.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-11-22 02:44:58 -0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KgEfemGAbynlZAOdr0vM+kxWVQnATSXxnwspXliZIwaP0qdeGc8qgfwG+XhyCv18W1NQh5FJAqTe5EZKM0LTZg==", "user"=>{"email"=>"user@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "user@example.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/global_links
+Completed 302 Found in 324ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/global_links" for 127.0.0.1 at 2018-11-22 02:44:59 -0600
+Processing by GlobalLinksController#index as HTML
+  Rendering global_links/index.html.erb within layouts/application
+  [1m[36mGlobalLink Load (0.0ms)[0m  [1m[34mSELECT "global_links".* FROM "global_links"[0m
+  Rendered global_links/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (4.0ms)
+  Rendered layouts/_navigation.html.erb (58.9ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 456ms (Views: 360.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-22 02:45:08 -0600
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  Rendered visitors/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (3.0ms)
+  Rendered layouts/_navigation.html.erb (68.8ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 422ms (Views: 392.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-11-22 02:45:10 -0600
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :admin_only rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-22 02:45:10 -0600
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  Rendered visitors/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (4.0ms)
+  Rendered layouts/_navigation.html.erb (60.9ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 419ms (Views: 391.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2018-11-22 02:45:16 -0600
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (55.9ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 521ms (Views: 517.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-22 02:46:14 -0600
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  Rendered visitors/index.html.erb within layouts/application (5.9ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (26.9ms)
+  Rendered layouts/_navigation.html.erb (85.7ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 916ms (Views: 864.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-11-22 02:46:19 -0600
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mGlobalLink Load (0.0ms)[0m  [1m[34mSELECT "global_links".* FROM "global_links"[0m
+  Rendered users/_user.html.erb (26.9ms)
+  Rendered users/_user.html.erb (3.0ms)
+  Rendered users/index.html.erb within layouts/application (97.8ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (54.9ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 511ms (Views: 468.8ms | ActiveRecord: 1.0ms)
+
+
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateTierOneLinks (20181122085004)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (39.9ms)[0m  [1m[35mCREATE TABLE "tier_one_links" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "links" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20181122085004"]]
+  [1m[35m (146.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (1.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.0ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2018-11-22 02:52:41 -0600
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+
+SyntaxError - syntax error, unexpected end-of-input, expecting keyword_end:
+  app/controllers/application_controller.rb:15:in `'
+
+Started POST "/__better_errors/362fa96cc9a856fd/variables" for 127.0.0.1 at 2018-11-22 02:52:42 -0600
+Started POST "/__better_errors/362fa96cc9a856fd/variables" for 127.0.0.1 at 2018-11-22 02:52:56 -0600
+Started GET "/" for 127.0.0.1 at 2018-11-22 02:52:59 -0600
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  Rendered visitors/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_navigation_links.html.erb (3.0ms)
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (16.0ms)
+  Rendered layouts/_navigation.html.erb (88.4ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 6501ms (Views: 6462.3ms | ActiveRecord: 3.0ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2018-11-22 02:53:09 -0600
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"hdxvKfnW417/7NBn2k3uGRyROdY8nX/ulvLVC0Nad+1DZExYXKw6yiGggSWX1ZdFIMyNfWfCaHhof1IdTh9Gmw=="}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 49ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-22 02:53:09 -0600
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  Rendered visitors/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (4.0ms)
+  Rendered layouts/_navigation.html.erb (61.9ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 403ms (Views: 377.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-22 02:53:12 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (21.9ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (63.8ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 475ms (Views: 472.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-11-22 02:53:18 -0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rPDSr2hoJGHQ+LLMltpxsTYzDM5/Mr9ihsE3NoCZpu9TLhrf5Cv6PqZsFAstfZDq5P8Eql6TEgD61COzUhxphg==", "user"=>{"email"=>"testing@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "testing@email.com"], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 171ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `has_role?' for #<User:0x000000000bfd05d8>
+Did you mean?  has_attribute?:
+  app/controllers/application_controller.rb:5:in `after_sign_in_path_for'
+
+Started POST "/__better_errors/90bb58b1a80c7bbf/variables" for 127.0.0.1 at 2018-11-22 02:53:19 -0600
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-11-22 02:53:38 -0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rPDSr2hoJGHQ+LLMltpxsTYzDM5/Mr9ihsE3NoCZpu9TLhrf5Cv6PqZsFAstfZDq5P8Eql6TEgD61COzUhxphg==", "user"=>{"email"=>"testing@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "testing@email.com"], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 175ms (ActiveRecord: 2.0ms)
+
+
+
+ArgumentError - wrong number of arguments (given 2, expected 1):
+  app/controllers/application_controller.rb:5:in `after_sign_in_path_for'
+
+Started POST "/__better_errors/3291aab89a34b6d5/variables" for 127.0.0.1 at 2018-11-22 02:53:38 -0600
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-11-22 02:54:12 -0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rPDSr2hoJGHQ+LLMltpxsTYzDM5/Mr9ihsE3NoCZpu9TLhrf5Cv6PqZsFAstfZDq5P8Eql6TEgD61COzUhxphg==", "user"=>{"email"=>"testing@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "testing@email.com"], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 433ms (ActiveRecord: 2.0ms)
+
+
+
+NameError - undefined local variable or method `tier_one_links' for #<Devise::SessionsController:0x000000000bac6218>
+Did you mean?  tier_one_links_url
+               tier_one_link_url:
+  app/controllers/application_controller.rb:6:in `after_sign_in_path_for'
+
+Started POST "/__better_errors/cf9db207c2e92258/variables" for 127.0.0.1 at 2018-11-22 02:54:12 -0600
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-11-22 02:55:39 -0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rPDSr2hoJGHQ+LLMltpxsTYzDM5/Mr9ihsE3NoCZpu9TLhrf5Cv6PqZsFAstfZDq5P8Eql6TEgD61COzUhxphg==", "user"=>{"email"=>"testing@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "testing@email.com"], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 516ms (ActiveRecord: 3.0ms)
+
+
+
+NameError - undefined local variable or method `tier_one_links' for #<Devise::SessionsController:0x000000000a5db998>
+Did you mean?  tier_one_links_url
+               tier_one_link_url:
+  app/controllers/application_controller.rb:5:in `after_sign_in_path_for'
+
+Started POST "/__better_errors/5114d803e991119e/variables" for 127.0.0.1 at 2018-11-22 02:55:40 -0600
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-11-22 02:56:06 -0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rPDSr2hoJGHQ+LLMltpxsTYzDM5/Mr9ihsE3NoCZpu9TLhrf5Cv6PqZsFAstfZDq5P8Eql6TEgD61COzUhxphg==", "user"=>{"email"=>"testing@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "testing@email.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/tier_one_links
+Completed 302 Found in 302ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/tier_one_links" for 127.0.0.1 at 2018-11-22 02:56:06 -0600
+Processing by TierOneLinksController#index as HTML
+  Rendering tier_one_links/index.html.erb within layouts/application
+  [1m[36mTierOneLink Load (0.0ms)[0m  [1m[34mSELECT "tier_one_links".* FROM "tier_one_links"[0m
+  Rendered tier_one_links/index.html.erb within layouts/application (11.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (3.0ms)
+  Rendered layouts/_navigation.html.erb (55.9ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 423ms (Views: 396.3ms | ActiveRecord: 1.0ms)
+
+
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateTierTwoLinks (20181122085719)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (2.0ms)[0m  [1m[35mCREATE TABLE "tier_two_links" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "links" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20181122085719"]]
+  [1m[35m (131.3ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateTierThreeLinks (20181122085732)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "tier_three_links" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "links" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20181122085732"]]
+  [1m[35m (99.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.0ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+Started GET "/tier_one_links" for 127.0.0.1 at 2018-11-22 03:02:00 -0600
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TierOneLinksController#index as HTML
+  Rendering tier_one_links/index.html.erb within layouts/application
+  [1m[36mTierOneLink Load (1.0ms)[0m  [1m[34mSELECT "tier_one_links".* FROM "tier_one_links"[0m
+  Rendered tier_one_links/index.html.erb within layouts/application (10.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (13.0ms)
+  Rendered layouts/_navigation.html.erb (65.8ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 4180ms (Views: 4144.6ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/tier_two_links" for 127.0.0.1 at 2018-11-22 03:02:09 -0600
+Processing by TierTwoLinksController#index as HTML
+  Rendering tier_two_links/index.html.erb within layouts/application
+  [1m[36mTierTwoLink Load (0.0ms)[0m  [1m[34mSELECT "tier_two_links".* FROM "tier_two_links"[0m
+  Rendered tier_two_links/index.html.erb within layouts/application (7.9ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (4.0ms)
+  Rendered layouts/_navigation.html.erb (54.8ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 410ms (Views: 378.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/tier_one_links" for 127.0.0.1 at 2018-11-22 03:03:30 -0600
+Processing by TierOneLinksController#index as HTML
+  Rendering tier_one_links/index.html.erb within layouts/application
+  [1m[36mTierOneLink Load (0.0ms)[0m  [1m[34mSELECT "tier_one_links".* FROM "tier_one_links"[0m
+  Rendered tier_one_links/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (4.0ms)
+  Rendered layouts/_navigation.html.erb (64.4ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 427ms (Views: 400.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tier_one_links" for 127.0.0.1 at 2018-11-22 03:03:57 -0600
+Processing by TierOneLinksController#index as HTML
+  Rendering tier_one_links/index.html.erb within layouts/application
+  [1m[36mTierOneLink Load (0.0ms)[0m  [1m[34mSELECT "tier_one_links".* FROM "tier_one_links"[0m
+  Rendered tier_one_links/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (3.0ms)
+  Rendered layouts/_navigation.html.erb (60.8ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 415ms (Views: 388.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tier_two_links" for 127.0.0.1 at 2018-11-22 03:04:02 -0600
+Processing by TierTwoLinksController#index as HTML
+  Rendering tier_two_links/index.html.erb within layouts/application
+  [1m[36mTierTwoLink Load (0.0ms)[0m  [1m[34mSELECT "tier_two_links".* FROM "tier_two_links"[0m
+  Rendered tier_two_links/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (3.0ms)
+  Rendered layouts/_navigation.html.erb (66.8ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 455ms (Views: 426.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/tier_one_links" for 127.0.0.1 at 2018-11-22 03:04:39 -0600
+Processing by TierOneLinksController#index as HTML
+  Rendering tier_one_links/index.html.erb within layouts/application
+  [1m[36mTierOneLink Load (1.0ms)[0m  [1m[34mSELECT "tier_one_links".* FROM "tier_one_links"[0m
+  Rendered tier_one_links/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (3.0ms)
+  Rendered layouts/_navigation.html.erb (60.8ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 417ms (Views: 387.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/tier_one_links" for 127.0.0.1 at 2018-11-22 03:04:51 -0600
+Processing by TierOneLinksController#index as HTML
+  Rendering tier_one_links/index.html.erb within layouts/application
+  [1m[36mTierOneLink Load (0.0ms)[0m  [1m[34mSELECT "tier_one_links".* FROM "tier_one_links"[0m
+  Rendered tier_one_links/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (5.0ms)
+  Rendered layouts/_navigation.html.erb (81.8ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 467ms (Views: 437.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/tier_one_links" for 127.0.0.1 at 2018-11-22 03:05:02 -0600
+Processing by TierOneLinksController#index as HTML
+  Rendering tier_one_links/index.html.erb within layouts/application
+  [1m[36mTierOneLink Load (0.0ms)[0m  [1m[34mSELECT "tier_one_links".* FROM "tier_one_links"[0m
+  Rendered tier_one_links/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (4.0ms)
+  Rendered layouts/_navigation.html.erb (63.8ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 459ms (Views: 421.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/tier_one_links" for 127.0.0.1 at 2018-11-22 03:05:43 -0600
+Processing by TierOneLinksController#index as HTML
+  Rendering tier_one_links/index.html.erb within layouts/application
+  [1m[36mTierOneLink Load (0.0ms)[0m  [1m[34mSELECT "tier_one_links".* FROM "tier_one_links"[0m
+  Rendered tier_one_links/index.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (4.0ms)
+  Rendered layouts/_navigation.html.erb (59.8ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 509ms (Views: 481.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tier_one_links/new" for 127.0.0.1 at 2018-11-22 03:06:04 -0600
+Processing by TierOneLinksController#new as HTML
+  Rendering tier_one_links/new.html.erb within layouts/application
+  Rendered tier_one_links/_form.html.erb (2.0ms)
+  Rendered tier_one_links/new.html.erb within layouts/application (30.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (3.0ms)
+  Rendered layouts/_navigation.html.erb (58.4ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 441ms (Views: 413.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/tier_one_links" for 127.0.0.1 at 2018-11-22 03:06:07 -0600
+Processing by TierOneLinksController#index as HTML
+  Rendering tier_one_links/index.html.erb within layouts/application
+  [1m[36mTierOneLink Load (0.0ms)[0m  [1m[34mSELECT "tier_one_links".* FROM "tier_one_links"[0m
+  Rendered tier_one_links/index.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (3.0ms)
+  Rendered layouts/_navigation.html.erb (60.8ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 456ms (Views: 427.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tier_one_links" for 127.0.0.1 at 2018-11-22 03:06:28 -0600
+Processing by TierOneLinksController#index as HTML
+  Rendering tier_one_links/index.html.erb within layouts/application
+  [1m[36mTierOneLink Load (0.0ms)[0m  [1m[34mSELECT "tier_one_links".* FROM "tier_one_links"[0m
+  Rendered tier_one_links/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (4.0ms)
+  Rendered layouts/_navigation.html.erb (60.8ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 413ms (Views: 385.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tier_one_links" for 127.0.0.1 at 2018-11-22 03:06:35 -0600
+Processing by TierOneLinksController#index as HTML
+  Rendering tier_one_links/index.html.erb within layouts/application
+  [1m[36mTierOneLink Load (0.0ms)[0m  [1m[34mSELECT "tier_one_links".* FROM "tier_one_links"[0m
+  Rendered tier_one_links/index.html.erb within layouts/application (10.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (3.0ms)
+  Rendered layouts/_navigation.html.erb (68.8ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 468ms (Views: 435.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tier_one_links" for 127.0.0.1 at 2018-11-22 03:06:46 -0600
+Processing by TierOneLinksController#index as HTML
+  Rendering tier_one_links/index.html.erb within layouts/application
+  [1m[36mTierOneLink Load (1.0ms)[0m  [1m[34mSELECT "tier_one_links".* FROM "tier_one_links"[0m
+  Rendered tier_one_links/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (4.0ms)
+  Rendered layouts/_navigation.html.erb (59.8ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 398ms (Views: 367.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/tier_one_links" for 127.0.0.1 at 2018-11-22 03:07:31 -0600
+Processing by TierOneLinksController#index as HTML
+  Rendering tier_one_links/index.html.erb within layouts/application
+  [1m[36mGlobalLink Load (0.0ms)[0m  [1m[34mSELECT "global_links".* FROM "global_links"[0m
+  Rendered tier_one_links/index.html.erb within layouts/application (35.9ms)
+Completed 500 Internal Server Error in 163ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `links' for #<GlobalLink:0x000000000bec5170>
+Did you mean?  link
+               link=
+               link?:
+  app/views/tier_one_links/index.html.erb:14:in `block in _app_views_tier_one_links_index_html_erb__465269860_100849740'
+  app/views/tier_one_links/index.html.erb:12:in `_app_views_tier_one_links_index_html_erb__465269860_100849740'
+
+Started POST "/__better_errors/8b365d7ef792c02b/variables" for 127.0.0.1 at 2018-11-22 03:07:31 -0600
+  [1m[36mTierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/tier_one_links" for 127.0.0.1 at 2018-11-22 03:07:48 -0600
+Processing by TierOneLinksController#index as HTML
+  Rendering tier_one_links/index.html.erb within layouts/application
+  [1m[36mGlobalLink Load (0.0ms)[0m  [1m[34mSELECT "global_links".* FROM "global_links"[0m
+  Rendered tier_one_links/index.html.erb within layouts/application (31.9ms)
+Completed 500 Internal Server Error in 166ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `links' for #<GlobalLink:0x0000000006f9bf90>
+Did you mean?  link
+               link=
+               link?:
+  app/views/tier_one_links/index.html.erb:14:in `block in _app_views_tier_one_links_index_html_erb__465269860_65154000'
+  app/views/tier_one_links/index.html.erb:12:in `_app_views_tier_one_links_index_html_erb__465269860_65154000'
+
+Started POST "/__better_errors/c87433d5a4224b4c/variables" for 127.0.0.1 at 2018-11-22 03:07:48 -0600
+  [1m[36mTierOneLink Load (1.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/tier_one_links" for 127.0.0.1 at 2018-11-22 03:08:50 -0600
+Processing by TierOneLinksController#index as HTML
+  Rendering tier_one_links/index.html.erb within layouts/application
+  [1m[36mGlobalLink Load (0.0ms)[0m  [1m[34mSELECT "global_links".* FROM "global_links"[0m
+  [1m[36mTierOneLink Load (0.0ms)[0m  [1m[34mSELECT "tier_one_links".* FROM "tier_one_links"[0m
+  Rendered tier_one_links/index.html.erb within layouts/application (12.9ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (4.9ms)
+  Rendered layouts/_navigation.html.erb (60.8ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 422ms (Views: 397.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tier_one_links" for 127.0.0.1 at 2018-11-22 03:09:52 -0600
+Processing by TierOneLinksController#index as HTML
+  Rendering tier_one_links/index.html.erb within layouts/application
+  [1m[36mGlobalLink Load (0.0ms)[0m  [1m[34mSELECT "global_links".* FROM "global_links"[0m
+  [1m[36mTierOneLink Load (0.0ms)[0m  [1m[34mSELECT "tier_one_links".* FROM "tier_one_links"[0m
+  Rendered tier_one_links/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (4.0ms)
+  Rendered layouts/_navigation.html.erb (57.8ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 405ms (Views: 378.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tier_one_links" for 127.0.0.1 at 2018-11-22 03:13:34 -0600
+Processing by TierOneLinksController#index as HTML
+  Rendering tier_one_links/index.html.erb within layouts/application
+  [1m[36mGlobalLink Load (0.0ms)[0m  [1m[34mSELECT "global_links".* FROM "global_links"[0m
+  [1m[36mTierOneLink Load (1.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  Rendered tier_one_links/index.html.erb within layouts/application (446.8ms)
+Completed 500 Internal Server Error in 572ms (ActiveRecord: 1.0ms)
+
+
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+
+NameError - undefined local variable or method `tier_one_link' for #<#<Class:0x0000000006e19050>:0x0000000005fd4df0>
+Did you mean?  @tier_one_links
+               tier_one_link_url:
+  app/views/tier_one_links/index.html.erb:16:in `block in _app_views_tier_one_links_index_html_erb__465269860_50265660'
+  app/views/tier_one_links/index.html.erb:12:in `_app_views_tier_one_links_index_html_erb__465269860_50265660'
+
+Started POST "/__better_errors/9e4854d94e0510e5/variables" for 127.0.0.1 at 2018-11-22 03:13:35 -0600
+  [1m[36mTierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/tier_one_links" for 127.0.0.1 at 2018-11-22 03:13:43 -0600
+Processing by TierOneLinksController#index as HTML
+  Rendering tier_one_links/index.html.erb within layouts/application
+  [1m[36mGlobalLink Load (0.0ms)[0m  [1m[34mSELECT "global_links".* FROM "global_links"[0m
+  [1m[36mTierOneLink Load (1.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  Rendered tier_one_links/index.html.erb within layouts/application (636.7ms)
+Completed 500 Internal Server Error in 762ms (ActiveRecord: 1.0ms)
+
+
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+
+NameError - undefined local variable or method `tier_one_link' for #<#<Class:0x0000000006e19050>:0x000000000c06b010>
+Did you mean?  @tier_one_links
+               tier_one_link_url:
+  app/views/tier_one_links/index.html.erb:16:in `block in _app_views_tier_one_links_index_html_erb__465269860_100884160'
+  app/views/tier_one_links/index.html.erb:12:in `_app_views_tier_one_links_index_html_erb__465269860_100884160'
+
+Started POST "/__better_errors/f21b4b5160a5ab8e/variables" for 127.0.0.1 at 2018-11-22 03:13:44 -0600
+  [1m[36mTierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE TierOneLink Load (0.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/tier_one_links" for 127.0.0.1 at 2018-11-22 03:13:49 -0600
+Processing by TierOneLinksController#index as HTML
+  Rendering tier_one_links/index.html.erb within layouts/application
+  [1m[36mGlobalLink Load (0.0ms)[0m  [1m[34mSELECT "global_links".* FROM "global_links"[0m
+  [1m[36mTierOneLink Load (0.0ms)[0m  [1m[34mSELECT "tier_one_links".* FROM "tier_one_links"[0m
+  Rendered tier_one_links/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (4.0ms)
+  Rendered layouts/_navigation.html.erb (54.9ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 409ms (Views: 383.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/tier_one_links" for 127.0.0.1 at 2018-11-22 03:14:34 -0600
+Processing by TierOneLinksController#index as HTML
+  Rendering tier_one_links/index.html.erb within layouts/application
+  [1m[36mGlobalLink Load (0.0ms)[0m  [1m[34mSELECT "global_links".* FROM "global_links"[0m
+  [1m[36mTierOneLink Load (0.0ms)[0m  [1m[34mSELECT "tier_one_links".* FROM "tier_one_links"[0m
+  Rendered tier_one_links/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.1ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (4.0ms)
+  Rendered layouts/_navigation.html.erb (54.9ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 393ms (Views: 366.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tier_one_links" for 127.0.0.1 at 2018-11-22 03:19:06 -0600
+Processing by TierOneLinksController#index as HTML
+  Rendering tier_one_links/index.html.erb within layouts/application
+  [1m[36mGlobalLink Load (0.0ms)[0m  [1m[34mSELECT "global_links".* FROM "global_links"[0m
+  [1m[36mTierOneLink Load (0.0ms)[0m  [1m[34mSELECT "tier_one_links".* FROM "tier_one_links"[0m
+  Rendered tier_one_links/index.html.erb within layouts/application (14.9ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (13.0ms)
+  Rendered layouts/_navigation.html.erb (64.4ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 420ms (Views: 391.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/tier_one_links" for 127.0.0.1 at 2018-11-22 03:20:29 -0600
+Processing by TierOneLinksController#index as HTML
+  Rendering tier_one_links/index.html.erb within layouts/application
+  [1m[36mGlobalLink Load (0.0ms)[0m  [1m[34mSELECT "global_links".* FROM "global_links"[0m
+  [1m[36mTierOneLink Load (0.0ms)[0m  [1m[34mSELECT "tier_one_links".* FROM "tier_one_links"[0m
+  Rendered tier_one_links/index.html.erb within layouts/application (19.9ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (16.0ms)
+  Rendered layouts/_navigation.html.erb (84.8ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 542ms (Views: 499.8ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2018-11-22 03:20:50 -0600
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"about"}
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (3.0ms)
+  Rendered layouts/_navigation.html.erb (62.8ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 389ms (Views: 388.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tier_one_links/show" for 127.0.0.1 at 2018-11-22 03:24:38 -0600
+Processing by TierOneLinksController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[36mTierOneLink Load (1.0ms)[0m  [1m[34mSELECT  "tier_one_links".* FROM "tier_one_links" WHERE "tier_one_links"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+Completed 404 Not Found in 24ms (ActiveRecord: 1.0ms)
+
+
+
+ActiveRecord::RecordNotFound - Couldn't find TierOneLink with 'id'=show:
+  app/controllers/tier_one_links_controller.rb:68:in `set_tier_one_link'
+
+Started POST "/__better_errors/4d22e3b4c8f9bda5/variables" for 127.0.0.1 at 2018-11-22 03:24:39 -0600
+Started GET "/tier_one_links" for 127.0.0.1 at 2018-11-22 03:25:01 -0600
+Processing by TierOneLinksController#index as HTML
+  Rendering tier_one_links/index.html.erb within layouts/application
+  [1m[36mGlobalLink Load (0.3ms)[0m  [1m[34mSELECT "global_links".* FROM "global_links"[0m
+  [1m[36mTierOneLink Load (0.0ms)[0m  [1m[34mSELECT "tier_one_links".* FROM "tier_one_links"[0m
+  Rendered tier_one_links/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (4.0ms)
+  Rendered layouts/_navigation.html.erb (87.8ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 533ms (Views: 506.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/tier_one_links" for 127.0.0.1 at 2018-11-22 03:30:21 -0600
+Processing by TierOneLinksController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 130ms (ActiveRecord: 1.0ms)
+
+
+
+NoMethodError - undefined method `admin_only' for #<TierOneLinksController:0x000000000bd8cee8>:
+
+Started POST "/__better_errors/2900d5cf3992ce2c/variables" for 127.0.0.1 at 2018-11-22 03:30:21 -0600
+Started GET "/tier_one_links" for 127.0.0.1 at 2018-11-22 03:31:10 -0600
+Processing by TierOneLinksController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :tier_one_admin_only rendered or redirected
+Completed 302 Found in 24ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-22 03:31:10 -0600
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  Rendered visitors/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (3.0ms)
+  Rendered layouts/_navigation.html.erb (60.8ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 446ms (Views: 412.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-11-22 03:32:36 -0600
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :admin_only rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-22 03:32:36 -0600
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  Rendered visitors/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_nav_links_for_auth.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (55.8ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 392ms (Views: 367.0ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2018-11-22 03:33:30 -0600
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"MhH5GTwhwfjr3p0YpQfNT6igUKjIrKMHxBwXwugdamI6ojaxNOcOHVuFKpPbVamstBYeZmIWLZTasCRUKk7ShQ=="}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-22 03:33:30 -0600
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  Rendered visitors/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (55.9ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 394ms (Views: 365.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-11-22 03:33:33 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (54.8ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 447ms (Views: 446.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-11-22 03:33:48 -0600
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XpnXtZr7bpK9r4MBoIXR9ugj7dvr8dC0C7SeQVrhpwxSgW1BDKeQAfJ6w/X+XqvMLabStybxdKOLAINR4zqvig==", "user"=>{"name"=>"tier3", "email"=>"tier3test@email.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "tier3test@email.com"], ["LIMIT", 1]]
+  [1m[35mSQL (2.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "name", "role") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "tier3test@email.com"], ["encrypted_password", "$2a$11$m4VwtLysDweXEvU3jteLtuzGipjCrPS5G7zcmGuTz3WqZ7/5e3pve"], ["created_at", "2018-11-22 09:33:49.129708"], ["updated_at", "2018-11-22 09:33:49.129708"], ["name", "tier3"], ["role", 0]]
+  [1m[35m (114.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/tier_one_links
+Completed 302 Found in 432ms (ActiveRecord: 117.7ms)
+
+
+Started GET "/tier_one_links" for 127.0.0.1 at 2018-11-22 03:33:49 -0600
+Processing by TierOneLinksController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering tier_one_links/index.html.erb within layouts/application
+  [1m[36mGlobalLink Load (0.0ms)[0m  [1m[34mSELECT "global_links".* FROM "global_links"[0m
+  [1m[36mTierOneLink Load (0.0ms)[0m  [1m[34mSELECT "tier_one_links".* FROM "tier_one_links"[0m
+  Rendered tier_one_links/index.html.erb within layouts/application (19.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (51.9ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 397ms (Views: 368.1ms | ActiveRecord: 1.0ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2018-11-22 03:34:09 -0600
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ioujOrYkHtYKb8qqmPbh+XhwgSioswaMm+BTqJDtnzyGkxnOIHjgRUW6il7GLZvDvfW+RGWzopsbVE64KTaXug=="}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 12ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-22 03:34:09 -0600
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  Rendered visitors/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_nav_links_for_auth.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (57.8ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 432ms (Views: 401.8ms | ActiveRecord: 0.0ms)
+
+
